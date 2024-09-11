@@ -1,11 +1,11 @@
 import './App.css';
-
+import logo from '../public/assets/images/avatar-jessica.jpeg'
 function App() {
   return (
     <div className="App flex items-center justify-center min-h-screen">
       <div className="bg-zinc-900 rounded-lg		 text-black w-auto p-6 h-auto  flex flex-col items-center justify-center ">
 
-        <img src='src/assets/images/avatar-jessica.jpeg' className='w-16 h-16 mb-5 rounded-full ' />
+        <img src={logo} className='w-16 h-16 mb-5 rounded-full ' />
         <div className='items-center justify-center flex flex-col'>
           <h1 className='text-white text-lg font-inter font-bold'>
             Jessica Randall
